@@ -1,4 +1,4 @@
-# naipes-ruby
+# naipes-ruby V 1.0
 ## Dentro del archivo carta.rb
 
 - Se pide construir la clase carta, que debe guardar la pinta y el número de la carta.
@@ -15,3 +15,8 @@
 - Crear la clase Mano
 - Dentro de la clase mano, esta tiene 5 cartas siempre, y debe haber un método que reciba una baraja, y permite poner la primera carta de la mano al final de la baraja y la primera carta de la baraja al final de la mano.
 - Después de hacer el intercambio se debe barajar hint.
+
+
+# Desafío 124: Desafío Poker
+La clase Mano, debe poder distinguir que mano de poker tiene.
+- Ejemplo: 2 pares, 1 trío, fullhouse, etc.
