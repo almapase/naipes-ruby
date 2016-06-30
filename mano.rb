@@ -4,19 +4,16 @@ require 'pp'
 class Mano
   def initialize(baraja)
     @mi_mano = {}
-    @valor = 0
     5.times{ |i| @mi_mano["carta#{i+1}"] = baraja.pop }
-    cartas_por_pinta
-    cartas_por_valor
+
   end
 
   def show
+    cartas_por_pinta
+    cartas_por_valor
+    
     puts "mano "
     pp show_mano
-    # puts "pintas "
-    # pp @pintas
-    # puts "valores "
-    # pp @valores
 
     case
     when val_carta_mayor == 14 && escala? && color?
